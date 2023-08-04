@@ -8,7 +8,8 @@ body{
     background-image: url('balança.jpg');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 100% 220%;
+    background-size: 125% 240%;
+
 }
 
 header{
@@ -19,6 +20,11 @@ header{
     padding-bottom: 3%;
 }
 
+#titulo-container{
+    width: 80%;
+    text-align: center;
+}
+
 #bloco{
     width: 100%;
     display: flex;
@@ -26,7 +32,7 @@ header{
 }
 
 #container{
-    width: 25%;
+    width: 60%;
     border: solid 2px rgb(152 152 152 / 32%);
     backdrop-filter: blur(1px);
     border-radius: 25px;
