@@ -8,7 +8,7 @@ body{
     background-image: url('balança.jpg');
     background-repeat: no-repeat;
     background-position: top;
-    background-size: 125% 240%;
+    background-size: 145% 275%;
 
 }
 
@@ -18,7 +18,6 @@ header{
     justify-content: center;
     margin-top: 8%;
     padding-bottom: 3%;
-    color: green;
 }
 
 #titulo-container{
