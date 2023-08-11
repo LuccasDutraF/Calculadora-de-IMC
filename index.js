@@ -8,15 +8,21 @@ function Calcular() {
 
     res.innerHTML = (`O seu <strong>IMC</strong> ficou em ${imc}`) 
 
-   if(imc < 17){
-    res2.innerHTML = ("<strong>Muito abaixo do peso</strong><br><br><br>")
+if(peso.value.length == 0){
+     res.innerHTML = ("<strong>[ERRO] Preencha os campos corretamente</strong>")
+     res2.innerHTML = ("")
+}else if(altura.value.length == 0){
+      res.innerHTML = ("<strong>[ERRO] Preencha os campos corretamente</strong>")
+      res2.innerHTML = ("")
+}else if(imc < 17 ){
+     res2.innerHTML = ("<strong>Muito abaixo do peso</strong><br><br><br>")
     res2.innerHTML += ("<strong>@Copyright LDev</strong>")
 }else if(imc <= 18.5){
-    res2.innerHTML = ("<strong>Abaixo do peso</strong><br><br><br>")
-    res2.innerHTML += ("<strong>@Copyright LDev</strong>")
+      res2.innerHTML = ("<strong>Abaixo do peso</strong><br><br><br>")
+      res2.innerHTML += ("<strong>@Copyright LDev</strong>")
 }else if(imc <= 25){
-    res2.innerHTML = ("<strong>Peso normal</strong><br><br><br>")
-    res2.innerHTML += ("<strong>@Copyright LDev</strong>")
+      res2.innerHTML = ("<strong>Peso normal</strong><br><br><br>")
+      res2.innerHTML += ("<strong>@Copyright LDev</strong>")
 }else if(imc <= 30){
     res2.innerHTML = ("<strong>Acima do peso</strong><br><br><br>")
     res2.innerHTML += ("<strong>@Copyright LDev</strong>")
