@@ -5,6 +5,11 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('balança.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 125% 240%;
+
 }
 
 header{
@@ -23,8 +28,10 @@ header{
 
 #container{
     width: 45%;
+    border: solid 2px rgb(152 152 152 / 32%);
+    backdrop-filter: blur(1px);
+    border-radius: 25px;
     padding: 1%;
-    background-size: cover;
 }
 
 #calculo-titulo{
