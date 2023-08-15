@@ -6,7 +6,7 @@ function Calcular() {
     var altura1 = Number(altura.value)
     var imc = peso1 / (altura1*altura1)
 
-    res.innerHTML = (`O seu <strong>IMC</strong> ficou em ${imc}`) 
+    res.innerHTML = (`<strong>O seu IMC ficou em ${imc}</strong>`) 
 
 if(peso.value.length == 0){
      res.innerHTML = ("<strong>[ERRO] Preencha os campos corretamente</strong>")
