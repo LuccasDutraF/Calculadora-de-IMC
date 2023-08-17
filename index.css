@@ -6,7 +6,7 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('balança8.jpg');
+    background-image: url('balança9.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 220%;
@@ -28,8 +28,8 @@ header{
 
 #titulo-container{
     font-family: poppins;
-    color: #00e9ff;
-    -webkit-text-stroke: 0.65px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.65px black;
 }
 
 #container{
@@ -45,24 +45,24 @@ header{
     padding-top: 3%;
     text-align: center;
     font-family: poppins;
-    color: #00e9ff;
-    -webkit-text-stroke: 0.65px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.65px black;
 }
 
 #peso-titulo{
     padding-bottom: 5%;
     padding-left: 3%;
     font-family: poppins;
-    color: #00e9ff;
-    -webkit-text-stroke: 0.65px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.65px black;
 }
 
 #altura-titulo{
     padding-bottom: 3%;
     padding-left: 3%;
     font-family: poppins;
-    color: #00e9ff;
-    -webkit-text-stroke: 0.65px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.65px black;
 }
 
 #altura{
@@ -85,10 +85,10 @@ header{
     margin-left: 3%;
     font-family: 'Poppins';
     font-size: 75%;
-    color: #00e9ff;
+    color: black;
     background-color: #f7efef0f;
     border-color: #ffffff40;
-    -webkit-text-stroke: 0.5px rgb(0 80 255);
+    -webkit-text-stroke: 0.5px black;
 }
 
 #res{
@@ -104,15 +104,15 @@ header{
 
 #res3{
     padding-top: 3%;
-    color: #00e9ff;
-    -webkit-text-stroke: 0.5px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.5px black;
 }
 
 #res_total{
     border-radius: 20px;
     font-family: poppins;
-    color: rgb(0, 233, 255);
-    -webkit-text-stroke: 0.65px rgb(0 80 255);
+    color: black;
+    -webkit-text-stroke: 0.65px black;
 }
 
 footer{
