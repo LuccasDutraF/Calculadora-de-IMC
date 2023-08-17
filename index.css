@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
 *{
     margin:0;
     padding:0;
@@ -5,7 +6,7 @@
 
 body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url('balança.jpg');
+    background-image: url('balança8.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 220%;
@@ -25,10 +26,16 @@ header{
     justify-content: center;
 }
 
+#titulo-container{
+    font-family: poppins;
+    color: #00e9ff;
+    -webkit-text-stroke: 0.65px rgb(0 80 255);
+}
+
 #container{
     width: 25%;
-    border: solid 2px rgb(152 152 152 / 32%);
-    backdrop-filter: blur(1px);
+    border: solid 2px rgb(134 133 133 / 42%);
+    backdrop-filter: blur(0.7px);
     border-radius: 25px;
     padding: 1%;
 }
@@ -37,20 +44,51 @@ header{
     padding-bottom: 5%;
     padding-top: 3%;
     text-align: center;
+    font-family: poppins;
+    color: #00e9ff;
+    -webkit-text-stroke: 0.65px rgb(0 80 255);
 }
 
 #peso-titulo{
     padding-bottom: 5%;
     padding-left: 3%;
+    font-family: poppins;
+    color: #00e9ff;
+    -webkit-text-stroke: 0.65px rgb(0 80 255);
 }
 
 #altura-titulo{
     padding-bottom: 3%;
     padding-left: 3%;
+    font-family: poppins;
+    color: #00e9ff;
+    -webkit-text-stroke: 0.65px rgb(0 80 255);
+}
+
+#altura{
+    -webkit-text-stroke: 0.65px rgb(0 80 255 / 0%);
+    width: 20%;
+    border-radius: 6px;
+    padding-left: 5px;
+    border-color: #00000061;
+}
+
+#peso{
+    -webkit-text-stroke: 0.65px rgb(0 80 255 / 0%);
+    width: 17%;
+    border-radius: 6px;
+    padding-left: 5px;
+    border-color: #00000061;
 }
 
 #botao{
     margin-left: 3%;
+    font-family: 'Poppins';
+    font-size: 75%;
+    color: #00e9ff;
+    background-color: #f7efef0f;
+    border-color: #ffffff40;
+    -webkit-text-stroke: 0.5px rgb(0 80 255);
 }
 
 #res{
@@ -66,10 +104,15 @@ header{
 
 #res3{
     padding-top: 3%;
+    color: #00e9ff;
+    -webkit-text-stroke: 0.5px rgb(0 80 255);
 }
 
 #res_total{
     border-radius: 20px;
+    font-family: poppins;
+    color: rgb(0, 233, 255);
+    -webkit-text-stroke: 0.65px rgb(0 80 255);
 }
 
 footer{
