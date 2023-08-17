@@ -37,7 +37,7 @@ if(peso.value.length == 0){
     res2.innerHTML = ("<strong>Obesidade III</strong>")
     res3.innerHTML = ("<strong>@Copyright LDev</strong>")
 }
-res3.style.color = "#00e9ff"
+res3.style.color = "black"
 res3.style.textAlign = 'center'
 res2.style.textAlign = 'center'
 res.style.textAlign = 'center'
